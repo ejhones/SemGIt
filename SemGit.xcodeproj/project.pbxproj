@@ -58,6 +58,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFC8576E1B94D37900B069EA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFE209511B94CC7600C4E4B9 /* MasterViewController.swift */,
+				BFE209531B94CC7600C4E4B9 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BFC8576F1B94D3A900B069EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFE209551B94CC7600C4E4B9 /* Main.storyboard */,
+				BFE209581B94CC7600C4E4B9 /* Images.xcassets */,
+				BFE2095A1B94CC7600C4E4B9 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BFE209411B94CC7500C4E4B9 = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				BFE2094F1B94CC7600C4E4B9 /* AppDelegate.swift */,
-				BFE209511B94CC7600C4E4B9 /* MasterViewController.swift */,
-				BFE209531B94CC7600C4E4B9 /* DetailViewController.swift */,
-				BFE209551B94CC7600C4E4B9 /* Main.storyboard */,
-				BFE209581B94CC7600C4E4B9 /* Images.xcassets */,
-				BFE2095A1B94CC7600C4E4B9 /* LaunchScreen.xib */,
+				BFC8576E1B94D37900B069EA /* ViewControllers */,
+				BFC8576F1B94D3A900B069EA /* Resources */,
 				BFE2094D1B94CC7600C4E4B9 /* Supporting Files */,
 			);
 			path = SemGit;
@@ -415,6 +431,7 @@
 				BFE2096D1B94CC7600C4E4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFE2096E1B94CC7600C4E4B9 /* Build configuration list for PBXNativeTarget "SemGitTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +440,7 @@
 				BFE209701B94CC7600C4E4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
